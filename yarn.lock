@@ -1337,7 +1337,7 @@
   dependencies:
     tslib "^2.0.0"
 
-"@ticketswap/comets@^2.9.0":
+"@ticketswap/comets@^2.11.0", "@ticketswap/comets@^2.9.0":
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/@ticketswap/comets/-/comets-2.11.0.tgz#d1c33e9e9074c9005c933693ed6e1e924f5b8912"
   integrity sha512-FRYbPTATaC7a8gWbiysoTfR2CZBTaHqULrh+Q8U+BdOuGZzZH/PW6zKykx9VgoPbj8Th2ARN6jcoE13FyIuRMA==
@@ -3945,6 +3945,11 @@ neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+
+next-seo@^4.15.1:
+  version "4.15.1"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.15.1.tgz#d1cb51615739690040110b581bfb51d979307a1f"
+  integrity sha512-jRYUOKbSFirwNRTaYFThu0BLBA1oWJIUq076QQ8uXBP6GG6Eh2/aPcXDoeOt33S1qghTJ60MwW1BkCbN889MIg==
 
 next-tick@~1.0.0:
   version "1.0.0"
