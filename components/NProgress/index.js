@@ -2,6 +2,7 @@ import React from 'react'
 import NProgress from 'nprogress'
 import Router from 'next/router'
 import { Global, css } from '@emotion/core'
+import { themeColor } from '~/theme'
 
 let timeout
 
@@ -26,8 +27,7 @@ const ProgressBar = () => (
         pointer-events: none;
       }
       #nprogress .bar {
-        // Add color here
-        background: orange;
+        background: ${themeColor.primary};
         position: fixed;
         z-index: 1031;
         top: 0;
@@ -41,8 +41,7 @@ const ProgressBar = () => (
         right: 0px;
         width: 100px;
         height: 100%;
-        // Add color here
-        box-shadow: 0 0 10px orange, 0 0 5px orange;
+        box-shadow: 0 0 10px orange, 0 0 5px ${themeColor.primary};
         opacity: 1;
         transform: rotate(3deg) translate(0px, -4px);
       }
