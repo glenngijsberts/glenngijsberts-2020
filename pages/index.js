@@ -105,7 +105,8 @@ export default function Home() {
             height={120}
           />
           <ProfileText>
-            Glenn Gijsberts <JobTag>Front-end developer</JobTag>
+            {/* Glenn Gijsberts <JobTag>Front-end developer</JobTag> */}
+            Glenn Gijsberts
           </ProfileText>
         </Profile>
 
