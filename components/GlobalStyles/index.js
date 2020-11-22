@@ -106,6 +106,11 @@ const globalStyles = css`
     color: #292926;
     cursor: url(/cursor.png), auto !important;
   }
+
+  p {
+    word-break: keep-all !important;
+    hyphens: none !important;
+  }
 `
 
 const BaseStyles = () => {
